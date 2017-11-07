@@ -18,6 +18,16 @@
 		<servlet-name>UserServlet</servlet-name>
 		<url-pattern>/user/*</url-pattern>
 	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>LogOutServlet</servlet-name>
+		<servlet-class>org.elsys.ip.servlet.controller.LogOutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LogOutServlet</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+
 	
 		<filter>
 		<filter-name>LoginFilter</filter-name>

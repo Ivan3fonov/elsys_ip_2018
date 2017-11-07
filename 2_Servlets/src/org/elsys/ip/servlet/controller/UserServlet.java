@@ -12,7 +12,7 @@ import org.elsys.ip.servlet.model.User;
 import org.elsys.ip.servlet.service.UserService;
 
 /**
- * Servlet implementation class UserServlet
+ * LogOutServlet implementation class UserServlet
  */
 public class UserServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
